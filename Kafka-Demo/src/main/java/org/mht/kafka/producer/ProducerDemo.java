@@ -9,12 +9,12 @@ import org.apache.kafka.common.serialization.StringSerializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Producer {
+public class ProducerDemo {
 
 	public static final String BOOTSTRAP_SERVER = "localhost:9092";
 	public static String topic ="demo_topic";
 	
-	private static Logger logger = LoggerFactory.getLogger(Producer.class);
+	private static Logger logger = LoggerFactory.getLogger(ProducerDemo.class);
 	
 	public static void main(String[] args) {
 		
