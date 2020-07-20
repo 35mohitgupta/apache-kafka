@@ -4,4 +4,19 @@
   <artifactId>Kafka-Streams</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>KafkaStreams</name>
+  
+  <dependencies>
+  	<!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-streams -->
+	<dependency>
+	    <groupId>org.apache.kafka</groupId>
+	    <artifactId>kafka-streams</artifactId>
+	    <version>2.5.0</version>
+	</dependency>
+  	<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+	<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-simple</artifactId>
+	    <version>1.7.30</version>
+	</dependency>
+  </dependencies>
 </project>
